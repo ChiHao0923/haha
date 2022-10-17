@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 from datetime import datetime
-from waitress import serve
 
 app = Flask(__name__)
 
@@ -43,8 +42,8 @@ def account():
         return render_template("account.html")
 
 
-if __name__ == "__main__":
-    app.run()
+#if __name__ == "__main__":
+#    app.run()
     
 
 
